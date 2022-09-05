@@ -1,0 +1,27 @@
+.about{
+    display:flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(139,19,166);
+    background: linear-gradient(206deg, rgb(68 0 83) 0%, rgba(0,0,0,1) 50%, rgb(0 0 62) 100%);
+    flex-direction: column;
+}
+
+.aboutuscontent{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.aboutusleft{
+    background-color: rgba(0, 0, 0, 0.253);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    width: 70%;
+}
+
+
+.aboutusimage img{
+    height: 200px;
+}

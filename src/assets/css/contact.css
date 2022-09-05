@@ -1,0 +1,91 @@
+.contact{
+    background: linear-gradient(153deg, rgb(67 0 69) 0%, rgb(0 0 0) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    color: white;
+}
+
+.centercontact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 70%;
+    width: 70%;
+    background-color: #ffffff1a;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px 0 rgb(0 0 0 / 15%);
+
+    transition: all ease-in-out 0.5s;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.contactleft{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start;
+}
+.centercontact:hover{
+    box-shadow: 0px 0px 0px lightgray;
+}
+.contactleft img{
+    max-width: 400px;
+}
+.contactright{
+    background: #ffffff1a;
+    box-shadow: 0 4px 40px 0 rgb(0 0 0 / 15%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.cf-flname{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contactname label {
+    display: block;
+    padding-top: 0;
+    margin-bottom: 0.35rem;
+    text-align: left;
+    width: auto;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 16px;
+    font-feature-settings: "pnum" on,"lnum" on;
+    
+}
+.contactname input, .contactname textarea{
+    padding: 15px 10px;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 500;
+    outline: none;
+    border: 0.5px solid purple;
+    border-radius: 5px;
+}
+.contactname, .contactright label input{
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.contactsub{
+    margin: 10px;
+    background-color: purple;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+

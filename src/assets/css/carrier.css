@@ -1,0 +1,73 @@
+.carrier{
+    min-height: 100vh;
+    background: rgb(0,0,0);
+background: linear-gradient(313deg, rgba(0,0,0,1) 0%, rgba(0,11,89,1) 100%);
+display: flex;
+flex: 1;
+justify-content: center;
+align-items: center;
+padding-top: 70px;
+}
+
+.carriercard{
+display: flex;
+/* flex: 1; */
+min-width: 70%;
+min-height: 70%;
+
+background: #ffffff1a;
+
+border-radius: 10px;
+padding: 20px;
+flex-wrap: wrap;
+justify-content: center;
+}
+.carriertitle h1 , .carrierright h1 { 
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 5px 0px;
+    border-bottom: 3px solid skyblue;
+    word-spacing: 10px;
+    margin: 0px;
+}
+.carrierleft{
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    max-width: 400px;
+    min-width: 250px;
+}
+.carrierdetail P {
+font-family: sans-serif;
+line-height: 30px;
+}
+.carrierright{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluecolor{
+    color: skyblue;
+}
+
+.carrierright img{
+    /* max-width: 50%; */
+    width: 500px;
+}
+.carrierright button{
+    background: skyblue;
+    color: white;
+    font-size: 2rem;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+

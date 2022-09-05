@@ -1,0 +1,91 @@
+
+
+
+.intro{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: rgb(139,19,166);
+    background: linear-gradient(333deg, rgb(68 0 83) 0%, rgba(0,0,0,1) 50%,  rgb(0 0 62) 100%);
+    min-height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.introleft{
+    display: flex;
+    padding: 50px;
+     flex: 1;
+     
+}
+
+.introcard{
+    color: white;
+    font-weight: bold;
+    /* background-color: #0000003d; */
+    border-radius: 10px ;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: flex-start;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.introtitle p {
+font-weight: lighter;
+font-size: 2rem;
+font-family: sans-serif;
+color: grey;
+
+}
+.introtitle h1{
+    font-size: 4rem;
+}
+
+.joinform{
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+
+}
+.joinform input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin: 0px 20px 0px 0px;
+    font-size: 1.3rem;
+    
+
+}
+.joinform input::placeholder{
+    color: grey;
+    font-family: sans-serif;
+}
+.joinform button{
+    background-color: #00d4ff;
+    padding: 5px 10px;
+    outline: none; 
+    border: none;
+    border-radius: 5px ;
+    color: darkblue;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.introright{
+    display: flex;
+    flex: 1;
+    /* background: red; */
+    justify-content: center;
+    align-items: center;
+}
+.introright img{
+    max-width: 100%;
+    min-width: 250px;
+    border-radius: 200px;
+}

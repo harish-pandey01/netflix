@@ -1,0 +1,10 @@
+.home::-webkit-scrollbar {
+    display: hidden;
+}
+.home {
+
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+  }
